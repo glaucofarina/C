@@ -18,15 +18,15 @@ void inicializarMatriz(){           //procedimento para inicializar matriz
         printf("\n\n\t 0   1   2\n\n");           /*imprime os numeros das colunas
             for(l = 0; l < 3; l++){                /*percorre as linhas da matriz
                 for(c = 0; c < 3; c++){        /*percorre as colunas da matriz
-                    if(c == 0)                         /*se c == 0 faça
+                    if(c == 0)                         /*se c == 0 faï¿½a
                         printf("\t");                     /*tabulacao
                     printf(" %c ", jogo[l][c]);   /*imprime um caractere na tela na posicao linha e coluna
-                    if(c < 2)                           /*se coluna for menor que 2 faça
+                    if(c < 2)                           /*se coluna for menor que 2 faï¿½a
                         printf("|");                     /*imprime uma barra vertical
-                    if(c == 2)                         /*se coluna for igual a 2 faça
+                    if(c == 2)                         /*se coluna for igual a 2 faï¿½a
                     printf("  %d", l);                /*imprime o numero das linhas conforme o indice linha na coluna 2
                 }
-                if(l < 2)                                /*se linha for menor que 2 faça
+                if(l < 2)                                /*se linha for menor que 2 faï¿½a
                     printf("\n\t-----------");      /*imprime uma linha vertical
                 printf("\n");                          /*pula uma linha para melhor espacamento
         }
@@ -159,7 +159,7 @@ int main ( ){
         inicializarMatriz();
         jogar();
 
-        printf("\nDigite 1 para jogar novamente: ");
+        printf("\n\nDigite 1 para jogar novamente: ");
         scanf("%d", &opcao);
     }while(opcao == 1);
 
